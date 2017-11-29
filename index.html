@@ -1,44 +1,131 @@
-﻿<!doctype html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>Menu lateral</title>
-<link href="css/themes/MisTemas1.min.css" rel="stylesheet" type="text/css">
-<link href="jquery-mobile/jquery.mobile.structure-1.3.0.min.css" rel="stylesheet" type="text/css">
-<script src="jquery-mobile/jquery-1.11.1.min.js"></script>
-<script src="jquery-mobile/jquery.mobile-1.3.0.min.js"></script>
-</head>
-
-<body>
-<div data-role="page" id="home">
-	<div data-role="header">
-		<a href="#panel_izquierdo" data-icon="bars" data-iconpos="notext" data-shadow="true"></a>
-		<h1>Menus Laterales</h1>
-		<a href="#panel_derecho" data-icon="info" data-iconpos="notext"></a>
-	</div>
+<!DOCTYPE html>
+ <html> 
+  <head>
+  <meta charset="utf-8">
+  <title>INVERNADERO AUTOMATIZADO</title>
+  <link href="css/themes/fin.min.css" rel="stylesheet" type="text/css">
+  <link href="../FINAL/jquery-mobile/jquery.mobile.structure-1.3.0.min.css" rel="stylesheet" type="text/css">
+  <script src="../final/jquery-mobile/jquery-1.11.1.min.js"></script>
+  <script src="../final/jquery-mobile/jquery.mobile-1.3.0.min.js"></script>
+      
+    </head>
+    <body>
+    <div data-role="page" id="home">
+       	
+       	<div data-role="header">
+       	
+       	<a href="#panel_izquierdo" data-icon="bars" data-iconpos="notext" data-shadow="true"></a>
+		<h1>INVERNADERO AUTOMATIZADO</h1>
+		
+		<a href="#panel_derecho" data-icon="info" data-iconpos="notext"></a></div>
 	
-	<div data-role="content">
-		<!--Menu izquierdo-->
-	<div id="panel_izquierdo" data-role="panel" data-display="overlay">
-		<ul data-role="listview">
-		<li data-icon=""delete><a href="#" data-rel="close">Cerrar</a></li>
-		<li> Opcion 1</li>
-		<li> Opcion 2</li>
-		 <li> Opcion 2</li>	
-		</ul>
-	</div>
-	</div>
-		<!--Menu derecho-->
-		<div id="panel_derecho" data-role="panel" data-position="right" data-display="overlay">
-			<h2><strong>Autor:</strong>Yulissa</h2>
-			<p>Este software esta protegido por las leyes del estado Mexicano</p>
-			<a haref="#" data-rel="close" data-icon="delete" data-role="button">Cerrar</a>
+       <div data-role="content">
+       <img src="images/Piloto 2.png" width="600" height="600" alt=""/>
+       
+       
+<div id="panel_izquierdo" data-role="panel" data-display="overlay">
+ 	   <ul data-role="listview">
+       	 	<li><a href="#home" data-rel="close">Cerrar</a></li>
+       	 	<li><a href="#sobre_nosotros" >Sobre Nosotros</a></li>	
+       	 	<li><a href="#objetivo" >Nuestro Objetivo</a></li>
+       	 	<li><a href="#funcionalidad" >Funcionalidades</a></li>
+       	 	<li><a href="#contactanos" >Contactanos</a></li>
+       	 	</ul>
+       	 	  
+       	 </div>
+     
+     <div id="panel_derecho" data-role="panel" data-position="right" data-display="overlay">
+		  <h2><strong>Autores:</strong>*************</h2>
+		  <p>   </p>
+		  <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		  
+		  
+		  
+		   <a href="#home" data-rel="close" data-icon="delete" data-role="button">Cerrar</a>
+		  </div>
 		</div>
-	<div data-role="footer" data-position="fixed">
-		<h1>Pie de Página</h1>
-	</div>
+      <div data-role="footer" data-position="fixed">
+		<h1>Copyright @AgroTec UTZAC 2017</h1>
+		</div>
+	</div>          
 
+      
+		
+		<div data-role="page" id="sobre_nosotros">
+    <div data-role="header">
+    <a href="#home" data-role="button" data-icon="back" data-rel="back" data-iconpos="notext"></a>
+		<h1>Sobre Nosotros</h1>
+	</div>
+	<div data-role="content">
+		<img src="images/Piloto 2.png" width="1090" height="704" alt=""/>
+		
+		
+		 </div>
+	<div data-role="footer" data-position="fixed"><h3>AgroTec UTZAC</h3></div>
+	</div>
 	
-</div>
+	
+	  <div data-role="page" id="objetivo">
+    <div data-role="header">
+    <a href="#home" data-role="button" data-icon="back" data-rel="back" data-iconpos="notext"></a>
+		<h1>Nuestro Objetivo</h1>
+	</div>
+	<div data-role="content">
+		Contenido
+	</div>
+	<div data-role="footer" data-position="fixed"><h3>AgroTec UTZAC</h3></div>
+	</div>
+	
+		<div data-role="page" id="funcionalidad">
+    <div data-role="header">
+    <a href="#home" data-role="button" data-icon="back" data-rel="back" data-iconpos="notext"></a>
+		<h1>Funcionalidades del Invernadero</h1>
+	</div>
+	<div data-role="content">
+		Contenido
+	</div>
+	<div data-role="footer" data-position="fixed"><h3>AgroTec UTZAC</h3></div>
+	</div>
+	
+	
+		<div data-role="page" id="contactanos">
+    <div data-role="header">
+    <a href="#home" data-role="button" data-icon="back" data-rel="back" data-iconpos="notext"></a>
+		<h1>Contactanos</h1>
+	</div>
+	<div data-role="content">
+		Contenido
+	</div>
+	<div data-role="footer" data-position="fixed"><h3>AgroTec UTZAC</h3></div>
+	</div>
+	
+	
+	<div data-role="page" id="autores">
+    <div data-role="header">
+    <a href="#panel_derecho" data-role="button" data-icon="back" data-rel="back" data-iconpos="notext"></a>
+		<h1>Conocenos</h1>
+	</div>
+	<div data-role="content">
+		Contenido
+	</div>
+	<div data-role="footer" data-position="fixed"><h3>AgroTec UTZAC</h3></div>
+	</div>
+	
+	
+	<div data-role="page" id="formulario">
+    <div data-role="header">
+    <a href="#home" data-role="button" data-icon="back" data-rel="back" data-iconpos="notext"></a>
+		<h1>Formulario de Contacto</h1>
+	</div>
+	<div data-role="content">
+		
+		
+                      
+  
+		</div>
+	<div data-role="footer" data-position="fixed"><h3>AgroTec UTZAC</h3></div>
+	</div>
+	
+			
 </body>
 </html>
